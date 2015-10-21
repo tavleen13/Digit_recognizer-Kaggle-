@@ -11,8 +11,8 @@ df = pd.read_csv("/home/tavleen/PycharmProjects/digit/train.csv", header = 0)
 df_test = pd.read_csv("/home/tavleen/PycharmProjects/digit/test.csv",header = 0)
 
 # Write to the log:
-print("Training set has {0[0]} rows and {0[1]} columns".format(df.shape))
-print("Test set has {0[0]} rows and {0[1]} columns".format(df_test.shape))
+#print("Training set has {0[0]} rows and {0[1]} columns".format(df.shape))
+#print("Test set has {0[0]} rows and {0[1]} columns".format(df_test.shape))
 # Any files you write to the current directory get shown as outputs
 df_sample = df.head(42000)
 data = df_sample.values
